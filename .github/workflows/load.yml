@@ -32,7 +32,7 @@ jobs:
           # --- TODO: studenci uzupełniają poniższe trzy wartości ---
           BQ_PROJECT_ID: ida-projekt2-513811
           BQ_DATASET: shop
-          BQ_TABLE: customers
+          BQ_TABLE: src.customers
         run: python extract_load.py
 
       - name: Clean up key file
